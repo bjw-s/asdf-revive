@@ -34,7 +34,7 @@ get_machine_arch() {
   ARCH=$(uname -m | tr '[:upper:]' '[:lower:]')
 
   case "${ARCH}" in
-  x86_64) echo "x86_64" ;;
+  x86_64) echo "amd64" ;;
   aarch64) echo "arm64" ;;
   armv8l) echo "arm64" ;;
   arm64) echo "arm64" ;;
@@ -69,7 +69,7 @@ download_release() {
   fi
   local platform="${os}_${arch}"
 
-  url="$GH_REPO/releases/download/v${version}/${TOOL_NAME}_${version}_${platform}.tar.gz"
+  url="$GH_REPO/releases/download/v${version}/${TOOL_NAME}_${platform}.tar.gz"
 
   echo "* Downloading $TOOL_NAME release $version..."
   curl "${curl_opts[@]}" -o "$filename" -C - "$url" || fail "Could not download $url"
