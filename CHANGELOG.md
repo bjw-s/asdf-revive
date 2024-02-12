@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/bjw-s/asdf-revive/compare/v1.0.0...v1.1.0) (2024-02-12)
+
+
+### Features
+
+* **deps:** update shfmt ( 3.7.0 → 3.8.0 ) ([#15](https://github.com/bjw-s/asdf-revive/issues/15)) ([e6077c2](https://github.com/bjw-s/asdf-revive/commit/e6077c2be962c713aef85dce0039eaef5167f049))
+
 ## 1.0.0 (2023-12-04)
 
 
