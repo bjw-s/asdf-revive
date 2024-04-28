@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/bjw-s/asdf-revive/compare/v1.1.0...v1.2.0) (2024-03-24)
+
+
+### Features
+
+* **deps:** update shellcheck ( 0.9.0 → 0.10.0 ) ([#17](https://github.com/bjw-s/asdf-revive/issues/17)) ([badc24d](https://github.com/bjw-s/asdf-revive/commit/badc24d9a5d5f5c6744ef56ad028faeb855e5f12))
+
 ## [1.1.0](https://github.com/bjw-s/asdf-revive/compare/v1.0.0...v1.1.0) (2024-02-12)
 
 
